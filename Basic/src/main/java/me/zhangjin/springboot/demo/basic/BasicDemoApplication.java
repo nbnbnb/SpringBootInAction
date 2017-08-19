@@ -27,10 +27,6 @@ public class BasicDemoApplication {
     @Value("${book.name}")
     private String bookName;
 
-    public static void main(String[] args) {
-        SpringApplication.run(BasicDemoApplication.class, args);
-    }
-
     @RequestMapping("/book")
     public String book() {
         //return "book name is: " + bookName + " and book author is: " + bookAuthor;
@@ -46,4 +42,9 @@ public class BasicDemoApplication {
     public String hello() {
         return helloService.sayHello();
     }
+
+    public static void main(String[] args) {
+        SpringApplication.run(BasicDemoApplication.class, args);
+    }
+
 }

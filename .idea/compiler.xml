@@ -6,21 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ch6_4" />
-        <module name="demo-basicdemo" />
+        <module name="demo-basic" />
         <module name="demo-starter" />
-        <module name="DemoStarter" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
-      <module name="BasicDemo" target="1.8" />
-      <module name="ch6_4" target="1.8" />
-      <module name="ch6_5" target="1.8" />
-      <module name="demo-basicdemo" target="1.8" />
+      <module name="demo-basic" target="1.8" />
       <module name="demo-root" target="1.8" />
       <module name="demo-starter" target="1.8" />
-      <module name="DemoStarter" target="1.8" />
-      <module name="SpringBootInAction" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

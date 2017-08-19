@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-me.zhangjin.springboot.demo.HelloServiceAutoConfiguration
+me.zhangjin.springboot.demo.starter.HelloServiceAutoConfiguration

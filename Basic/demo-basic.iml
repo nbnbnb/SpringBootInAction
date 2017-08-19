@@ -2,7 +2,12 @@
 <module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
-      <configuration />
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/src/main/java/me/zhangjin/springboot/demo/basic/BasicDemoApplication.java</file>
+          <file>file://$MODULE_DIR$/../Starter/src/main/java/me/zhangjin/springboot/demo/starter/HelloServiceAutoConfiguration.java</file>
+        </fileset>
+      </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
@@ -64,5 +69,6 @@
     <orderEntry type="library" name="Maven: org.springframework:spring-core:4.3.10.RELEASE" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: org.springframework:spring-test:4.3.10.RELEASE" level="project" />
     <orderEntry type="module" module-name="demo-starter" />
+    <orderEntry type="library" name="Maven: com.oracle:ojdbc6:12.1.0.1-atlassian-hosted" level="project" />
   </component>
 </module>

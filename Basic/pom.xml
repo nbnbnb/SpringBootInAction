@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
     <groupId>me.zhangjin.springboot.demo</groupId>
-	<artifactId>demo-basicdemo</artifactId>
+    <artifactId>demo-basic</artifactId>
 	<packaging>jar</packaging>
     <version>${module.version}</version>
 	<name>BasicDemo</name>
@@ -36,6 +36,10 @@
             <artifactId>demo-starter</artifactId>
             <version>${module.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.oracle</groupId>
+            <artifactId>ojdbc6</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
@@ -46,7 +50,7 @@
                 <version>${spring.boot.version}</version>
                 <configuration>
                     <!--设定入口类-->
-                    <mainClass>me.zhangjin.springboot.demo.BasicDemoApplication</mainClass>
+                    <mainClass>me.zhangjin.springboot.demo.basic.BasicDemoApplication</mainClass>
                 </configuration>
             </plugin>
         </plugins>

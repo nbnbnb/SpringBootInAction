@@ -1,4 +1,4 @@
-package me.zhangjin.springboot.demo;
+package me.zhangjin.springboot.demo.starter;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;

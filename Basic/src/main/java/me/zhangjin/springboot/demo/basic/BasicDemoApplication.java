@@ -1,6 +1,7 @@
-package me.zhangjin.springboot.demo;
+package me.zhangjin.springboot.demo.basic;
 
-import me.zhangjin.springboot.demo.config.AuthorSettings;
+import me.zhangjin.springboot.demo.basic.config.AuthorSettings;
+import me.zhangjin.springboot.demo.starter.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -12,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @SpringBootApplication
 public class BasicDemoApplication {
 
+    // 使用 Spirng Boot 的自动配置进行注入
     @Autowired
     private HelloService helloService;
 

@@ -1,4 +1,4 @@
-package me.zhangjin.springboot.demo;
+package me.zhangjin.springboot.demo.starter;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

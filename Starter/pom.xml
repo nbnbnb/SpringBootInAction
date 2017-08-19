@@ -10,12 +10,7 @@
     <artifactId>demo-starter</artifactId>
     <packaging>jar</packaging>
     <version>${module.version}</version>
-    <name>demo-starter</name>
-    <url>http://maven.apache.org</url>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <name>Starter</name>
 
     <dependencies>
         <dependency>

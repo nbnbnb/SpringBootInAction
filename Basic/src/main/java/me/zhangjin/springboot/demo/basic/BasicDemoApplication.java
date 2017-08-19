@@ -42,7 +42,7 @@ public class BasicDemoApplication {
         return "Hello Spring Boot";
     }
 
-    @RequestMapping("/hello")
+    @RequestMapping("/starter")
     public String hello() {
         return helloService.sayHello();
     }

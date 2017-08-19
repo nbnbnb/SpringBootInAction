@@ -7,6 +7,7 @@
     <groupId>me.zhangjin.springboot.demo</groupId>
     <artifactId>demo-root</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <name>Root</name>
     <modules>
         <module>./Basic</module>
         <module>./Starter</module>

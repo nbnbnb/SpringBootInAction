@@ -3,9 +3,14 @@
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
       <configuration>
+        <fileset id="spring_boot_me.zhangjin.springboot.demo.basic.BasicDemoApplication" name="BasicDemoApplication" removed="true">
+          <file>file://$MODULE_DIR$/src/main/java/me/zhangjin/springboot/demo/basic/BasicDemoApplication.java</file>
+          <file>file://$MODULE_DIR$/src/main/resources/application.properties</file>
+          <file>file://$MODULE_DIR$/src/main/resources/application-dev.properties</file>
+          <file>file://$MODULE_DIR$/src/main/resources/application-prod.properties</file>
+        </fileset>
         <fileset id="fileset" name="Spring Application Context" removed="false">
           <file>file://$MODULE_DIR$/src/main/java/me/zhangjin/springboot/demo/basic/BasicDemoApplication.java</file>
-          <file>file://$MODULE_DIR$/../Starter/src/main/java/me/zhangjin/springboot/demo/starter/HelloServiceAutoConfiguration.java</file>
         </fileset>
       </configuration>
     </facet>

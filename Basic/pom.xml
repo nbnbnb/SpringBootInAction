@@ -5,9 +5,8 @@
 
     <groupId>me.zhangjin.springboot.demo</groupId>
 	<artifactId>demo-basicdemo</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-
+    <version>${module.version}</version>
 	<name>BasicDemo</name>
 	<description>Basic Demo</description>
 
@@ -22,11 +21,21 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-configuration-processor</artifactId>
+            <optional>true</optional>
+        </dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
 		</dependency>
+        <dependency>
+            <groupId>me.zhangjin.springboot.demo</groupId>
+            <artifactId>demo-starter</artifactId>
+            <version>${module.version}</version>
+        </dependency>
     </dependencies>
 
     <build>

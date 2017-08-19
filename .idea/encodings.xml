@@ -2,7 +2,8 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="ISO-8859-1">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/BasicDemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Basic" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Starter" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ch6_5" charset="UTF-8" />
   </component>
 </project>

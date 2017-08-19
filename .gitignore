@@ -25,3 +25,4 @@ lib/
 out/
 target/
 .idea/workspace.xml
+.idea/libraries/

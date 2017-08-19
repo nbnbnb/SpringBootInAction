@@ -1,13 +1,14 @@
 package me.zhangjin.springboot.demo.basic.dao;
 
 import me.zhangjin.springboot.demo.basic.domain.Person;
-import org.springframework.data.jpa.repository.JpaRepository;
+import me.zhangjin.springboot.demo.basic.support.CustomRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 
 import java.util.List;
 
-public interface PersonRepository extends JpaRepository<Person, Long> {
+//public interface PersonRepository extends JpaRepository<Person, Long> {
+public interface PersonRepository extends CustomRepository<Person, Long> {
 
     List<Person> findByAddress(String address);
 

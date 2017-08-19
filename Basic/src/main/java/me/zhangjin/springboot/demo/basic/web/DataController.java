@@ -55,4 +55,9 @@ public class DataController {
     public Person findById(Long id) {
         return personRepository.findOne(id);
     }
+
+    @RequestMapping("/auto")
+    public Page<Person> auto(Person person) {
+        return personRepository.findByAuto(person, new PageRequest(0, 10));
+    }
 }

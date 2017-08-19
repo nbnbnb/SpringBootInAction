@@ -1,16 +1,19 @@
 package me.zhangjin.springboot.demo.basic;
 
 import me.zhangjin.springboot.demo.basic.config.AuthorSettings;
+import me.zhangjin.springboot.demo.basic.support.CustomRepositoryFactoryBean;
 import me.zhangjin.springboot.demo.starter.HelloService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @SpringBootApplication
+@EnableJpaRepositories(repositoryFactoryBeanClass = CustomRepositoryFactoryBean.class)
 public class BasicDemoApplication {
 
     // 使用 Spirng Boot 的自动配置进行注入
